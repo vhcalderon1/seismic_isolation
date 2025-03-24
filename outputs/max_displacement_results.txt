@@ -1,0 +1,7 @@
+Seismic Isolation Performance Report
+------------------------------------
+Average Maximum Displacement: 29.75 cm
+
+Individual Event Maxima (cm):
+Arequipa2001	Lima1966	Lima1974	Pisco2007	Concepcion2010	Curico2010	Hualane2010
+30.31	28.71	28.70	28.86	35.18	23.96	32.53
