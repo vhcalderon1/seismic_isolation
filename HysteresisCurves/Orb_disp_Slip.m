@@ -37,7 +37,7 @@ if ~exist(outputFolder, 'dir')
 end
 
 % Load earthquake displacement data
-inputFileName = 'Orb_Desl_Concepcion_2010_Fuerte_Y.txt';
+inputFileName = 'Orb_Slip_Concepcion2010_Strong_Y.txt';
 displacementData = load(fullfile(inputFolder, inputFileName)); % Columns: [time(s), X_disp(mm), Y_disp(mm)]
 
 %% ========== DATA PROCESSING ==========

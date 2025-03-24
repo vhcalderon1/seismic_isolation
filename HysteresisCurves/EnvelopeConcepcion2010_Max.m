@@ -41,7 +41,7 @@ end
 
 %% ======================== DATA LOADING ================================
 % Load experimental hysteresis data
-data_file = fullfile('..', 'datasets', 'Fuerza_aislamientototal_Concepcion2010_FuerteY.txt');
+data_file = fullfile('..', 'datasets', 'Total_isolation_force_Concepcion2010_StrongY.txt');
 hysteresis_data = load(data_file);
 
 % Unit conversions

@@ -32,15 +32,15 @@ end
 fprintf('Loading seismic records from: %s\n', input_folder);
 
 % Peruvian Earthquakes
-arequipa_data = load(fullfile(input_folder, 'CM_Arequipa2001_FuerY_nominal.txt'));
-lima1966_data = load(fullfile(input_folder, 'CM_Lima1966_FuerY_nominal.txt')); 
-lima1974_data = load(fullfile(input_folder, 'CM_Lima1974_FuerY_nominal.txt'));
-pisco2007_data = load(fullfile(input_folder, 'CM_Pisco2007_FuerY_nominal.txt'));
+arequipa_data = load(fullfile(input_folder, 'CM_Arequipa2001_ForceY_nominal.txt'));
+lima1966_data = load(fullfile(input_folder, 'CM_Lima1966_ForceY_nominal.txt')); 
+lima1974_data = load(fullfile(input_folder, 'CM_Lima1974_ForceY_nominal.txt'));
+pisco2007_data = load(fullfile(input_folder, 'CM_Pisco2007_ForceY_nominal.txt'));
 
 % Chilean Earthquakes
-concepcion2010_data = load(fullfile(input_folder, 'CM_Concepcion2010_FuerY_nominal.txt'));
-curico2010_data = load(fullfile(input_folder, 'CM_Curico2010_FuerY_nominal.txt'));
-hualane2010_data = load(fullfile(input_folder, 'CM_Hualane2010_FuerY_nominal.txt'));
+concepcion2010_data = load(fullfile(input_folder, 'CM_Concepcion2010_ForceY_nominal.txt'));
+curico2010_data = load(fullfile(input_folder, 'CM_Curico2010_ForceY_nominal.txt'));
+hualane2010_data = load(fullfile(input_folder, 'CM_Hualane2010_ForceY_nominal.txt'));
 
 %% Unit Conversion (mm → cm)
 convert_to_cm = @(data) data / 10;
