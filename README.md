@@ -3,7 +3,7 @@
 _A MATLAB-based framework for evaluating the seismic performance of base-isolated structures._
 
 <P align = "center">
-   <img src="https://github.com/user-attachments/assets/007ca4ab-6751-4e51-9758-a12a01420a84" width="500" height="350" />
+   <img src="https://github.com/user-attachments/assets/7ad8e39d-45c6-47c4-b784-f298cc49c8b3" width="500" height="350" />
    <img src="https://github.com/user-attachments/assets/c12e4e8c-7cac-4d96-9bf9-edfe174f4ba4" width="500" height="350" />
 
 ## References
